@@ -1,0 +1,105 @@
+  /* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Form Container */
+  .form_container {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Form Heading */
+  h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Form */
+  .form_input {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Form Value */
+  .form_value {
+    margin-bottom: 1rem;
+  }
+  
+  /* Form Label */
+  .form_label {
+    display: block;
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+    color: #555;
+  }
+  
+  /* Form Input */
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    box-sizing: border-box;
+  }
+  
+  input[type="text"]:focus,
+  input[type="password"]:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Error Messages */
+  p {
+    color: #e74c3c;
+    font-size: 0.75rem;
+    margin: 0.5rem 0 0 0;
+  }
+  
+  /* Button */
+  .btn_button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn_button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Signup Text */
+  span {
+    display: block;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  
+  span a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  span a:hover {
+    text-decoration: underline;
+  }
+  
